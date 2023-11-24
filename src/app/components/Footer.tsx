@@ -4,7 +4,7 @@ import { CiInstagram } from "react-icons/ci";
 
 const Footer = () => {
     return (
-        <main className="px-[5%] py-[70px] bg-white special-font">
+        <main className="px-[5%] py-[40px] bg-white special-font">
             <section className="" data-aos="fade-down">
                 <div className="flex justify-between flex-wrap gap-2" >
                     <div className="flex flex-col gap-2 mb-5 md:mb-0 w-full md:w-auto items-center md:items-start justify-center md:justify-start">
@@ -70,6 +70,8 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
+
+                <p className="text-[14px] text-litegrey text-center font-normal mt-5 ">All rights reserved@jadoo.co</p>
             </section>
         </main>
     );
