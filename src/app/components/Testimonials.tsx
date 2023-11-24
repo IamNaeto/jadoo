@@ -18,7 +18,7 @@ const Testimonials = () => {
 
             <section className="flex items-center justify-center mt-10 md:mt-0 special-font">
                 <div className="relative">
-                    <div className="p-4 rounded-xl shadow-md bg-white w-[85%] md:w-[70%] grid gap-3 relative z-10 ">
+                    <div className="p-4 rounded-xl shadow-lg bg-white w-[85%] md:w-[70%] grid gap-3 relative z-10 ">
                         <Image src="/img/user1.png" width={50} height={50} alt="img" className="absolute top-[-30px] left-[150px] md:left-[-20px]"/>
                         <p className="text-[13px] md:text-[15px] text-litegrey">“On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.”</p>
 
@@ -26,7 +26,7 @@ const Testimonials = () => {
                         <p className="text-[12px] md:text-[14px] text-litegrey">Lahore, Pakistan</p>
                     </div>
 
-                    <div className="p-4 rounded-xl border-[#F7F7F7] border bg-white w-[85%] md:w-[70%] grid gap-3 absolute left-[50px] top-[70px]">
+                    <div className="p-4 rounded-xl shadow-sm border-[#F7F7F7] border bg-white w-[85%] md:w-[70%] grid gap-3 absolute left-[50px] top-[70px]">
                         <Image src="/img/user1.png" width={50} height={50} alt="img" className="absolute top-[-30px] left-[150px] md:left-[-20px]"/>
                         <p className="text-[13px] md:text-[15px] text-litegrey">“On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.”</p>
 
