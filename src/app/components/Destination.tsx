@@ -36,14 +36,14 @@ const Destination = () => {
     return (
         <main className="relative w-full py-[50px] px-[5%] grid grid-cols-1 gap-6">
             <section className="flex flex-col items-center text-center gap-4">
-                <p className="text-[18px] text-litegrey font-bold special-font">Top Selling</p>
-                <h1 className="text-3xl md:text-5xl font-bold">Top Destinations</h1>
+                <p className="text-[18px] text-litegrey font-bold special-font" data-aos="fade-down">Top Selling</p>
+                <h1 className="text-3xl md:text-5xl font-bold" data-aos="fade-down">Top Destinations</h1>
             </section>
 
             <section className="grid grid-cols-1 sm:grid-cols-3 items-center gap-4 lg:gap-8 xl:gap-16 special-font">
                 {destination.map((destinations, index) => 
                 <div className="relative flex flex-col rounded-2xl shadow-sm" key={index}>
-                    <div className="relative z-10">
+                    <div className="relative z-10" data-aos="fade-down">
                         <div className="h-[350px]">
                             <Image src={destinations.img} width={300} height={300} alt="img" className="w-full h-full rounded-tl-2xl rounded-tr-2xl" />
                         </div>

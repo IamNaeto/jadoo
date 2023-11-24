@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Volkhov } from 'next/font/google'
 import './globals.css'
+import { AOSInit } from './components/AOS'
 
 const raleway = Volkhov({
   subsets: ['latin'],
@@ -19,6 +20,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <AOSInit />
       <body className={raleway.className}>{children}</body>
     </html>
   )
