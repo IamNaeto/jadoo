@@ -47,17 +47,17 @@ const Header = () => {
                 <Image src="/img/hero-logo.png" width={80} height={80} alt="logo" className="w-full" loading="eager"/>
             </Link>
 
-            <section className={`${isMenuOpen ? 'flex' : 'hidden'} absolute top-[68px] md:top-0 left-0 md:relative md:flex flex-col md:flex-row items-start md:items-center justify-start md:justify-between gap-4 lg:gap-8 text-[16px] text-litedark font-bold bg-orange md:bg-transparent pl-[5%] md:pl-auto py-10 md:py-0 w-full md:w-auto`}>
+            <section className={`${isMenuOpen ? 'left-0 nav-transition' : 'left-[-100%] nav-transition'} absolute top-[68px] md:top-0 md:left-0 md:relative md:flex flex-col md:flex-row items-start md:items-center justify-start md:justify-between gap-4 lg:gap-8 text-[16px] text-litedark font-bold bg-orange md:bg-transparent pl-[5%] md:pl-auto py-10 md:py-0 w-full md:w-auto`}>
                 <div className="flex flex-col md:flex-row items-start md:items-center justify-start md:justify-between gap-4 lg:gap-8">
-                    <a href="" className="hover:text-white md:hover:text-orange transition">Destinations</a>
-                    <a href="" className="hover:text-white md:hover:text-orange transition">Hotels</a>
-                    <a href="" className="hover:text-white md:hover:text-orange transition">Flights</a>
-                    <a href="" className="hover:text-white md:hover:text-orange transition">Bookings</a>
+                    <a href="" className="hover:text-white md:hover:text-orange transition delay-200">Destinations</a>
+                    <a href="" className="hover:text-white md:hover:text-orange transition delay-200">Hotels</a>
+                    <a href="" className="hover:text-white md:hover:text-orange transition delay-200">Flights</a>
+                    <a href="" className="hover:text-white md:hover:text-orange transition delay-200">Bookings</a>
                 </div>
 
                 <div className="flex flex-col md:flex-row items-start md:items-center justify-start md:justify-between gap-4 lg:gap-8">
-                    <a href="" className="hover:text-white md:hover:text-orange transition">Login</a>
-                    <a href="" className="px-4 py-1 border border-litedark rounded-[4px] hover:bg-litedark hover:text-white transition">Sign up</a>
+                    <a href="" className="hover:text-white md:hover:text-orange transition delay-200">Login</a>
+                    <a href="" className="px-4 py-1 border border-litedark rounded-[4px] hover:bg-litedark hover:text-white transition delay-200">Sign up</a>
 
                     <select name="" id="" className="bg-transparent border-none outline-none">
                         <option value="">EN</option>

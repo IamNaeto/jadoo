@@ -44,3 +44,7 @@
     background-image: url(/img/Decore.png);
     background-attachment: fixed;
   }
+
+  .nav-transition{
+    transition: left 1s;
+  }
