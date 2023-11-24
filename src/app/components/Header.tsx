@@ -44,7 +44,7 @@ const Header = () => {
     return ( 
         <nav className={`py-5 px-[5%] top-0 w-full fixed flex items-center justify-between z-20 ${headerBackground} special-font`}>
             <Link href="/" className="w-[80px]">
-                <Image src="/img/hero-logo.png" width={80} height={80} alt="logo" className="w-full"/>
+                <Image src="/img/hero-logo.png" width={80} height={80} alt="logo" className="w-full" loading="eager"/>
             </Link>
 
             <section className={`${isMenuOpen ? 'flex' : 'hidden'} absolute top-[68px] md:top-0 left-0 md:relative md:flex flex-col md:flex-row items-start md:items-center justify-start md:justify-between gap-4 lg:gap-8 text-[16px] text-litedark font-bold bg-orange md:bg-transparent pl-[5%] md:pl-auto py-10 md:py-0 w-full md:w-auto`}>

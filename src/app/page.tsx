@@ -6,6 +6,8 @@ import Destination from "./components/Destination"
 import Book from "./components/Book"
 import Testimonials from "./components/Testimonials"
 import Sponsors from "./components/Sponsors"
+import Subscribe from "./components/Subscribe"
+import Footer from "./components/Footer"
 
 export default function Home() {
   return (
@@ -17,6 +19,8 @@ export default function Home() {
       <Book />
       <Testimonials />
       <Sponsors />
+      <Subscribe />
+      <Footer />
     </main>
   )
 }

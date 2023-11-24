@@ -34,7 +34,7 @@ const Category = () => {
         <main className="relative w-full py-[100px] px-[5%] grid grid-cols-1 gap-4">
             <section className="flex flex-col items-center text-center gap-4">
                 <p className="text-[18px] text-litegrey font-bold special-font">CATEGORY</p>
-                <h1 className="text-5xl font-bold">We Offer Best Services</h1>
+                <h1 className="text-3xl md:text-5xl font-bold">We Offer Best Services</h1>
             </section>
 
             <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 place-items-center items-stretch gap-6 lg:gap-10 special-font">

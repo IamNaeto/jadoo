@@ -37,7 +37,7 @@ const Destination = () => {
         <main className="relative w-full py-[50px] px-[5%] grid grid-cols-1 gap-6">
             <section className="flex flex-col items-center text-center gap-4">
                 <p className="text-[18px] text-litegrey font-bold special-font">Top Selling</p>
-                <h1 className="text-5xl font-bold">Top Destinations</h1>
+                <h1 className="text-3xl md:text-5xl font-bold">Top Destinations</h1>
             </section>
 
             <section className="grid grid-cols-1 sm:grid-cols-3 items-center gap-4 lg:gap-8 xl:gap-16 special-font">
@@ -57,7 +57,7 @@ const Destination = () => {
                         </div>
                     </div>
 
-                    {destinations.sideImg && <Image src={destinations.sideImg} width={80} height={80} alt="img" className="absolute right-[-20px] sm:right-[-30px] lg:right-[-50px] bottom-[90px]"/>}
+                    {destinations.sideImg && <Image src={destinations.sideImg} width={80} height={80} alt="img" className="absolute right-[-15px] sm:right-[-30px] lg:right-[-50px] bottom-[90px]"/>}
                 </div>
                 )}
             </section>

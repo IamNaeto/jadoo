@@ -15,6 +15,7 @@ const config: Config = {
         blue: '#181e4b',
         litepurple: '#5e6282',
         litegrey: '#686d77',
+        grey: '#DFD7F9',
         litedark: '#212832',
         offwhite: '#F5F5F5',
        }

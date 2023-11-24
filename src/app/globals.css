@@ -4,8 +4,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
 
-
-/* *{
+/* 
+*{
   border: 2px solid red;
 } */
 
@@ -42,7 +42,5 @@
 
   .bg{
     background-image: url(/img/Decore.png);
-    background-attachment: scroll;
+    background-attachment: fixed;
   }
-
-  

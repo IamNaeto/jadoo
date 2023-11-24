@@ -6,7 +6,7 @@ const Book = () => {
         <main className="px-[5%] py-20 grid grid-cols-1 md:grid-cols-2 items-center gap-6">
             <section className="grid grid-cols-1 gap-4">
                 <p className="text-[16px] text-litegrey font-bold text-center md:text-left special-font">Easy and Fast</p>
-                <h1 className="text-litedark text-5xl text-center md:text-left font-extrabold w-full md:max-w-[500px]">Book Your Next Trip in 3 Easy Steps</h1>
+                <h1 className="text-litedark text-3xl md:text-5xl text-center md:text-left font-extrabold w-full md:max-w-[500px]">Book Your Next Trip in 3 Easy Steps</h1>
 
                 <div className="flex items-center gap-2 special-font">
                     <div>

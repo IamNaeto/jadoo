@@ -25,7 +25,7 @@ const Sponsors = () => {
     return ( 
         <main className="px-[5%] py-[50px] flex items-center justify-center md:justify-between basis-56 flex-wrap gap-6">
             {sponsorsLogo.map((sponsors, index) =>
-            <div className="p-2 md:p-4 rounded-xl bg-white hover:shadow-md flex items-center justify-center h-[100px]" key={index}>
+            <div className="p-2 md:p-4 rounded-xl bg-white hover:shadow-md shadow-md md:shadow-none flex items-center justify-center h-[100px]" key={index}>
                 <Image src={sponsors.img} width={100} height={100} alt="img" className="object-contain h-full"/>
             </div>
             )}

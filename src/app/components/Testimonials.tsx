@@ -7,7 +7,7 @@ const Testimonials = () => {
         <main className="px-[5%] py-[100px] grid grid-cols-1 md:grid-cols-2 gap-6">
             <section className="grid gap-4">
                 <p className="text-[18px] text-litegrey font-semibold special-font text-center md:text-left">Testimonials</p>
-                <h1 className="text-5xl font-extrabold w-full md:max-w-[70%] text-center md:text-left">What People Say About Us.</h1>
+                <h1 className="text-3xl md:text-5xl font-extrabold w-full md:max-w-[70%] text-center md:text-left">What People Say About Us.</h1>
 
                 <div className="flex items-center gap-2 justify-center md:justify-start">
                     <GoDotFill className="text-2xl text-litedark"/>
