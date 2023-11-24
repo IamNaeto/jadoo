@@ -1,8 +1,11 @@
 import type { Metadata } from 'next'
-import { Raleway } from 'next/font/google'
+import { Volkhov } from 'next/font/google'
 import './globals.css'
 
-const raleway = Raleway({ subsets: ['latin'] })
+const raleway = Volkhov({
+  subsets: ['latin'],
+  weight: '700'
+})
 
 export const metadata: Metadata = {
   title: 'Create Next App',

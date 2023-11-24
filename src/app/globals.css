@@ -2,10 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
 
 /* *{
-    border: 2px solid red;
+  border: 2px solid red;
 } */
+
+.special-font{
+  font-family: 'Poppins', sans-serif;
+}
 
  /*Keyframes for the dangling animation */
  @keyframes dangle {
@@ -33,3 +39,10 @@
     display: block;
     transition: 0.5s;
   }
+
+  .bg{
+    background-image: url(/img/Decore.png);
+    background-attachment: scroll;
+  }
+
+  
