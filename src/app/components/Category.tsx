@@ -55,7 +55,7 @@ const Category = () => {
                 )}
             </section>
 
-            <Image src="/img/grid.png" width={100} height={100} alt="grid" className="w-[8%] absolute top-[70px] right-5 lg:right-20"/>
+            <Image src="/img/grid.png" width={100} height={100} alt="grid" className=" w-[18%] md:w-[8%] absolute top-[70px] right-5 lg:right-20"/>
         </main>
     );
 }
