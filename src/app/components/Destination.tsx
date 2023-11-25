@@ -14,7 +14,7 @@ const Destination = () => {
         {
             img: "/img/rome.png",
             location: "Rome, Italy",
-            amount: "$5,42k",
+            amount: "$5.42k",
             days: "10 Days Trip",
             sideImg: ""
         },
@@ -34,7 +34,7 @@ const Destination = () => {
         },
     ]
     return (
-        <main className="relative w-full py-[50px] px-[5%] grid grid-cols-1 gap-6">
+        <main className="relative w-full py-[80px] px-[5%] grid grid-cols-1 gap-6" id="destination">
             <section className="flex flex-col items-center text-center gap-4">
                 <p className="text-[18px] text-litegrey font-bold special-font" data-aos="fade-down">Top Selling</p>
                 <h1 className="text-3xl md:text-5xl font-bold" data-aos="fade-down">Top Destinations</h1>

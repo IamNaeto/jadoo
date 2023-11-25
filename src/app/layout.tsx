@@ -10,7 +10,7 @@ const raleway = Volkhov({
 
 export const metadata: Metadata = {
   title: 'Jadoo',
-  description: 'A Travel Agency Website',
+  description: 'A Travel Agency Landing Page',
 }
 
 export default function RootLayout({

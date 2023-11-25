@@ -47,17 +47,17 @@ const Header = () => {
                 <Image src="/img/hero-logo.png" width={80} height={80} alt="logo" className="w-full" loading="eager"/>
             </Link>
 
-            <section className={`${isMenuOpen ? 'left-0 nav-transition' : 'left-[-100%] nav-transition'} absolute top-[68px] md:top-0 md:left-0 md:relative md:flex flex-col md:flex-row items-start md:items-center justify-start md:justify-between gap-4 lg:gap-8 text-[16px] text-litedark font-bold bg-orange md:bg-transparent pl-[5%] md:pl-auto py-10 md:py-0 w-full md:w-auto`}>
+            <section className={`${isMenuOpen ? 'left-0' : 'left-[-100%]'} nav-transition md:transition-none absolute top-[68px] md:top-0 md:left-0 md:relative md:flex flex-col md:flex-row items-start md:items-center justify-start md:justify-between gap-4 lg:gap-8 text-[16px] text-litedark font-bold bg-orange md:bg-transparent pl-[5%] md:pl-auto py-10 md:py-0 w-full md:w-auto`}>
                 <div className="flex flex-col md:flex-row items-start md:items-center justify-start md:justify-between gap-4 lg:gap-8">
-                    <a href="" className="hover:text-white md:hover:text-orange transition delay-200">Destinations</a>
-                    <a href="" className="hover:text-white md:hover:text-orange transition delay-200">Hotels</a>
-                    <a href="" className="hover:text-white md:hover:text-orange transition delay-200">Flights</a>
-                    <a href="" className="hover:text-white md:hover:text-orange transition delay-200">Bookings</a>
+                    <a href="#destination" className="hover:text-white md:hover:text-orange transition delay-200" onClick={toggleMenu}>Destinations</a>
+                    <a href="#" className="hover:text-white md:hover:text-orange transition delay-200" onClick={toggleMenu}>Hotels</a>
+                    <a href="#" className="hover:text-white md:hover:text-orange transition delay-200" onClick={toggleMenu}>Flights</a>
+                    <a href="#bookings" className="hover:text-white md:hover:text-orange transition delay-200" onClick={toggleMenu}>Bookings</a>
                 </div>
 
-                <div className="flex flex-col md:flex-row items-start md:items-center justify-start md:justify-between gap-4 lg:gap-8">
-                    <a href="" className="hover:text-white md:hover:text-orange transition delay-200">Login</a>
-                    <a href="" className="px-4 py-1 border border-litedark rounded-[4px] hover:bg-litedark hover:text-white transition delay-200">Sign up</a>
+                <div className="flex flex-col md:flex-row items-start md:items-center justify-start md:justify-between gap-4 lg:gap-8 mt-4 md:mt-0">
+                    <a href="#" className="hover:text-white md:hover:text-orange transition delay-200" onClick={toggleMenu}>Login</a>
+                    <a href="#" className="px-4 py-1 border border-litedark rounded-[4px] hover:bg-litedark hover:text-white transition delay-200" onClick={toggleMenu}>Sign up</a>
 
                     <select name="" id="" className="bg-transparent border-none outline-none">
                         <option value="">EN</option>

@@ -31,7 +31,7 @@ const Category = () => {
 
       ]
     return (
-        <main className="relative w-full py-[100px] px-[5%] grid grid-cols-1 gap-4">
+        <main className="relative w-full py-[100px] px-[5%] grid grid-cols-1 gap-4" id="category">
             <section className="flex flex-col items-center text-center gap-4">
                 <p className="text-[18px] text-litegrey font-bold special-font" data-aos="fade-down">CATEGORY</p>
                 <h1 className="text-3xl md:text-5xl font-bold" data-aos="fade-down">We Offer Best Services</h1>

@@ -4,7 +4,7 @@ import { IoMailOutline } from "react-icons/io5";
 const Subscribe = () => {
     return (
         <main className="relative py-[100px] px-[5%] special-font">
-            <section className="relative p-8 rounded-lg rounded-tl-3xl flex flex-col gap-10 items-center justify-center bg-gray-100 h-[300px] z-10">
+            <section className="relative p-4 md:p-8 rounded-lg rounded-tl-3xl flex flex-col gap-10 items-center justify-center bg-gray-100 h-[300px] z-10">
                 <p className="text-xl md:text-3xl font-bold text-litegrey w-full md:w-[75%] text-center relative z-10" data-aos="fade-down">Subscribe to get information, latest news and other interesting offers about Jadoo</p>
 
                 <div className="flex items-center justify-center gap-2 w-full relative z-10" data-aos="fade-down">

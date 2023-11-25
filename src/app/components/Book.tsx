@@ -3,7 +3,7 @@ import { FaRegHeart } from "react-icons/fa";
 
 const Book = () => {
     return (
-        <main className="px-[5%] py-20 grid grid-cols-1 md:grid-cols-2 items-center gap-6">
+        <main className="px-[5%] py-20 grid grid-cols-1 md:grid-cols-2 items-center gap-6" id="bookings">
             <section className="grid grid-cols-1 gap-4">
                 <p className="text-[16px] text-litegrey font-bold text-center md:text-left special-font" data-aos="fade-down">Easy and Fast</p>
                 <h1 className="text-litedark text-3xl md:text-5xl text-center md:text-left font-extrabold w-full md:max-w-[500px]" data-aos="fade-down">Book Your Next Trip in 3 Easy Steps</h1>
